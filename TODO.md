@@ -5,4 +5,6 @@
 - Decide on library of components
 - Decide on sheet/widget relation model
 - Decide on design aesthetic
+- Discuss guiding principles, goals, etc.
+- Resarch non-compete open-source license
 - Pick a name!
