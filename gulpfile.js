@@ -81,11 +81,6 @@ gulp.task('clean-html', function() {
  .pipe(clean());
 });
 
-gulp.task('clean-jison', function(){
-  return gulp.src(builds.jison)
-  .pipe(clean());
-})
-
 gulp.task('compile-jade', ['clean-html'], function() {
    var folders = getFolders(paths.jade);
 
@@ -108,17 +103,14 @@ gulp.task('css', ['clean-css'],function () {
     .pipe(gulp.dest('app/assets/css'))
     .pipe(minifyCSS())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(header(banner, { package : package }))
     .pipe(gulp.dest('app/assets/css'))
     .pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('js', ['clean-js'], function(){
+gulp.task('js', ['jison'], function(){
   gulp.src('src/js/*.js')
-    .pipe(header(banner, { package : package }))
     .pipe(gulp.dest('app/assets/js'))
     .pipe(uglify())
-    .pipe(header(banner, { package : package }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('app/assets/js'))
     .pipe(browserSync.reload({stream:true, once: true}));
@@ -129,15 +121,13 @@ gulp.task('img', function(){
     .pipe(gulp.dest('app/assets/img'))
 });
 
-gulp.task('jison', ['clean-jison'], function(){
+gulp.task('jison', ['clean-js'], function(){
   gulp.src('src/jison/*.jison')
-    .pipe(jison({ moduleType: 'commonjs' }))
-    .pipe(header(banner, { package : package }))
-    .pipe(gulp.dest('app/assets/jison'))
+    .pipe(jison())
+    .pipe(gulp.dest('app/assets/js'))
     .pipe(uglify())
-    .pipe(header(banner, { package : package }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('app/assets/jison'))
+    .pipe(gulp.dest('app/assets/js'))
 })
 
 gulp.task('browser-sync', ['img', 'css', 'js', 'jison', 'compile-jade'], function() {
@@ -157,6 +147,6 @@ gulp.task('default', ['browser-sync'], function () {
     gulp.watch("src/js/*.js", ['js']);
     gulp.watch("src/**/*.jade", ['compile-jade']);
     gulp.watch("src/scss/*.scss", ['css']);
-    gulp.watch("src/jison/*", ['jison']);
+    gulp.watch("src/jison/*", ['js']);
     gulp.watch("src/img/*", ['img']);
 });
