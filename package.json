@@ -1,14 +1,4 @@
 {
-  "name": "angular-character-sheet",
-  "title": "Lightning fast modular character sheet management",
-  "author": "maxrothman",
-  "url": "",
-  "version": "0.01",
-  "license": "",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "devDependencies": {
     "browser-sync": "^1.6.5",
     "gulp": "^3.8.10",
