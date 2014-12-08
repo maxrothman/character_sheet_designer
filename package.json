@@ -1,13 +1,13 @@
 {
-  "name": "fastshell",
-  "title": "Fiercely quick and opinionated front-ends",
-  "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
-  "version": "1.0.3",
-  "license": "MIT",
+  "name": "angular-character-sheet",
+  "title": "Lightning fast modular character sheer management",
+  "author": "maxrothman",
+  "url": "",
+  "version": "0.01",
+  "license": "",
   "repository": {
     "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
+    "url": ""
   },
   "devDependencies": {
     "browser-sync": "^1.6.5",
