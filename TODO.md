@@ -18,9 +18,7 @@
     - https://github.com/yconst/Freetile
     - http://www.inwebson.com/demo/blocksit-js/
     - https://github.com/GBKS/Wookmark-jQuery
-    - http://masonry.desandro.com/
     - http://www.bramstein.com/projects/jlayout/jquery-plugin.html
-    - http://isotope.metafizzy.co/
     - http://ksylvest.github.io/jquery-gridly/
     
   - Info/Comparisons
