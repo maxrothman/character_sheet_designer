@@ -26,13 +26,16 @@
     - http://gridster.net/
       - fills top-to-bottom
       - not responsive
-    - http://www.inwebson.com/demo/blocksit-js/
-    - https://github.com/GBKS/Wookmark-jQuery
-    - http://www.bramstein.com/projects/jlayout/jquery-plugin.html
-    - http://ksylvest.github.io/jquery-gridly/
     - http://www.jqueryscript.net/layout/iGoogle-Like-Drag-Drop-Layout-Plugin-inettuts.html
       - uses columns (maybe rows?)
+    - https://github.com/ManifestWebDesign/angular-gridster
+      - fills top-to-bottom
+      - has swapping, but only for same-sized elements
     
   - Info/Comparisons
     - http://blog.fusioncharts.com/2014/09/comparing-jquery-grid-plugins-masonry-vs-isotope-vs-packery-vs-gridster-vs-shapeshift-vs-shuffle-js/
     - http://www.plugingeek.com/categories/grid-layouts-javascript
+
+  - Roll yer own
+    - http://stackoverflow.com/questions/18614695/sort-or-rearrange-rows-of-a-table-in-angularjs-drag-and-drop
+    - http://jqueryui.com/
