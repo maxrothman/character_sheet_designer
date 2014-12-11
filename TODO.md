@@ -21,7 +21,7 @@
       - responsive
       - commercial license
     - https://github.com/uberVU/grid
-      - can fill either way
+      - fills left-to-right, but can do swaps with same-size elements (or collections of elements)
       - responsive
     - http://gridster.net/
       - fills top-to-bottom
