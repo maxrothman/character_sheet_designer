@@ -42,3 +42,15 @@
       - http://layout.jquery-dev.com/tips.cfm#Widget_Draggable
       - http://layout.jquery-dev.com/demos/droppable.html
       - https://github.com/dbushell/Nestable
+    - alternatives:
+      - http://www.jeasyui.com/index.php
+      - http://www.jqwidgets.com/
+      - http://yuilibrary.com/
+      - http://dhtmlx.com/
+      - http://madrobby.github.io/scriptaculous/sortable/
+      - http://mochi.github.io/mochikit/doc/html/MochiKit/DragAndDrop.html
+      - http://www.amplesdk.com/
+      - https://github.com/voidberg/html5sortable
+      - http://rubaxa.github.io/Sortable/
+      - http://johnny.github.io/jquery-sortable/
+      - http://interface.eyecon.ro/
