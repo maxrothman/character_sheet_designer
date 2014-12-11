@@ -38,9 +38,7 @@
 
   - Roll yer own
     - http://stackoverflow.com/questions/18614695/sort-or-rearrange-rows-of-a-table-in-angularjs-drag-and-drop
-    - http://jqueryui.com/
-      - this looks promising:
-        - http://layout.jquery-dev.com/tips.cfm#Widget_Draggable
-        - http://layout.jquery-dev.com/demos/droppable.html
-        - https://github.com/dbushell/Nestable
-        - 
+    - http://jqueryui.com/ this looks promising:
+      - http://layout.jquery-dev.com/tips.cfm#Widget_Draggable
+      - http://layout.jquery-dev.com/demos/droppable.html
+      - https://github.com/dbushell/Nestable
