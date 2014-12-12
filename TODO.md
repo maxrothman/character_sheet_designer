@@ -54,3 +54,12 @@
       - http://rubaxa.github.io/Sortable/
       - http://johnny.github.io/jquery-sortable/
       - http://interface.eyecon.ro/
+  - angular-specific dnd implimentations
+    - http://codef0rmer.github.io/angular-dragdrop/#/
+    - http://ngmodules.org/modules/ngDraggable
+    - http://logicbomb.github.io/ng-directives/drag-drop.html
+    - http://www.directiv.es/Angular-DragDrop
+    - http://sdevgame.wordpress.com/2013/08/27/angularjs-drag-n-drop-re-order-in-ngrepeat/
+    - http://blog.parkji.co.uk/2013/08/11/native-drag-and-drop-in-angularjs.html
+    - http://adaptv.github.io/adapt-strap/
+    - http://www.smartjava.org/content/drag-and-drop-angularjs-using-jquery-ui
